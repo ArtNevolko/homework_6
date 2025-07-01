@@ -1,0 +1,56 @@
+@import url('./normalize.css');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: var(--main-font-size);
+}
+
+.container {
+	width: 1126px;
+	margin: 0 auto;
+}
+
+.logo__image {
+	height: 32px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0px 30px 0px;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	margin-left: auto;
+	font-size: 14px;
+}
+
+.menu__item {
+	margin-left: 40px;
+}
+
+.menu__link {
+	text-decoration: none;
+	color: #333
+}
+
+.nav__buttons {
+	display: flex;
+	gap: 14px;
+	margin-left: 40px;
+}
+
+.button__in,
+.button__up {
+	width: 110px;
+	height: 45px;
+	border-radius: 4px;
+	font-weight: 600;
+}
+
+.button__up {
+	background: rgb(255, 153, 0);
+}
