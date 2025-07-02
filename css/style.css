@@ -19,6 +19,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 0px 30px 0px;
+	margin-bottom: 30px;
 }
 
 .menu {
@@ -51,18 +52,28 @@ body {
 	font-weight: 600;
 }
 
+.button__in {
+	border: 1px solid rgb(188, 208, 229);
+	background: none;
+}
+
 .button__up {
 	background: rgb(255, 153, 0);
+	color: #fff;
+	border: none;
 }
 
 /* _________________________________ */
 
-.section1 {
-	margin-top: 30px;
+.section1,
+.section2 {
+	margin-bottom: 110px;
 }
 
 .section1__text,
-.section1__image {
+.section1__image,
+.section3__text,
+.section3__image {
 	display: block;
 	width: 50%;
 	float: left;
@@ -74,18 +85,17 @@ body {
 
 /* ___________________________________ */
 
-.block1__btn {
+.section1__btn {
 	margin-top: 45px;
 }
 
-.block1__btn a {
-	/* text-decoration: none; */
+.section1__btn a {
 	color: rgb(255, 153, 0);
 	font-weight: 700;
 	display: inline-block;
 }
 
-.block1__btn a img {
+.section1__btn a img {
 	width: 20px;
 	height: 20px;
 	padding-right: 10px;
@@ -102,4 +112,23 @@ body {
 	font-weight: 700;
 	border: none;
 	cursor: pointer;
+}
+
+.section1 .container::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.section2 {
+	text-align: center;
+}
+
+.first__test,
+.second__test,
+.third__test,
+.fourth__test {
+	width: 240px;
+	height: 230px;
+	display: inline-block;
 }
