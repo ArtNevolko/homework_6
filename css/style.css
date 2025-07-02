@@ -11,7 +11,7 @@ body {
 }
 
 .logo__image {
-	height: 32px;
+	width: 100%;
 }
 
 .nav {
@@ -53,4 +53,53 @@ body {
 
 .button__up {
 	background: rgb(255, 153, 0);
+}
+
+/* _________________________________ */
+
+.section1 {
+	margin-top: 30px;
+}
+
+.section1__text,
+.section1__image {
+	display: block;
+	width: 50%;
+	float: left;
+}
+
+.section1__text {
+	margin-top: 100px;
+}
+
+/* ___________________________________ */
+
+.block1__btn {
+	margin-top: 45px;
+}
+
+.block1__btn a {
+	/* text-decoration: none; */
+	color: rgb(255, 153, 0);
+	font-weight: 700;
+	display: inline-block;
+}
+
+.block1__btn a img {
+	width: 20px;
+	height: 20px;
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+.btn__started {
+	width: 175px;
+	height: 53px;
+	margin-right: 30px;
+	border-radius: 4px;
+	background: rgb(255, 153, 0);
+	color: #fff;
+	font-weight: 700;
+	border: none;
+	cursor: pointer;
 }
