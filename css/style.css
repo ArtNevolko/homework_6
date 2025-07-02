@@ -63,27 +63,33 @@ body {
 	border: none;
 }
 
-/* _________________________________ */
-
 .section1,
-.section2 {
+.section2,
+.section3,
+.section4,
+.section5 {
 	margin-bottom: 110px;
 }
 
 .section1__text,
-.section1__image,
 .section3__text,
-.section3__image {
-	display: block;
-	width: 50%;
+.section5__text {
+	width: 40%;
 	float: left;
 }
 
-.section1__text {
-	margin-top: 100px;
+.section1__image,
+.section3__image,
+.section5__image {
+	width: 50%;
+	float: right;
 }
 
-/* ___________________________________ */
+.section1__text,
+.section4__text,
+.section5__text {
+	margin-top: 100px;
+}
 
 .section1__btn {
 	margin-top: 45px;
@@ -114,7 +120,7 @@ body {
 	cursor: pointer;
 }
 
-.section1 .container::after {
+.container::after {
 	content: "";
 	display: table;
 	clear: both;
@@ -131,4 +137,31 @@ body {
 	width: 240px;
 	height: 230px;
 	display: inline-block;
+}
+
+.section4__image {
+	width: 50%;
+	float: left;
+}
+
+.section4__text {
+	width: 45%;
+	float: right;
+}
+
+.section4__check {
+	margin-bottom: 30px;
+}
+
+.section4__check img {
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.section4__check>p {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	font-size: inherit;
+	white-space: nowrap;
 }
